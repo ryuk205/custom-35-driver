@@ -72,3 +72,4 @@ This will:
  
 ## 📜 Acknowledgments
 These drivers and overlays are adapted from various sources for legacy 3.5" SPI displays. Since this package utilizes a modified/stable set of configurations, you may want to refer to the **[Official Raspberry Pi Firmware (Specific Version)](https://github.com/raspberrypi/firmware/tree/2ba11f2a07760588546821aed578010252c9ecb3)** which matches the environment used during development.
+This code was made with Google AntiGravity IDE, it is AI Generated.
