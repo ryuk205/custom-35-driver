@@ -13,10 +13,14 @@ The scripts are optimized for hardware stability on the Raspberry Pi 4:
 - **Stability Focused**: Automatically configures `disable_fw_kms_setup` and `max_framebuffers` to prevent driver hangs.
 - **Rotation Support**: Easy script to rotate screen and resolution.
 - **Clean Uninstall**: Script to revert all changes safely.
+  
+## Original Drivers:
+- Vendor repo: https://github.com/ryuk205/custom-35-driver
+- Docs for display: https://www.lcdwiki.com/3.5inch_RPi_Display
+
 
 ## Prerequisites
 - Raspberry Pi 4/5 running Raspberry Pi OS (Debian Trixie/Bookworm).
-- Internet connection (for downloading dependencies).
 
 ## Installation
 
@@ -72,4 +76,4 @@ This will:
  
 ## 📜 Acknowledgments
 These drivers and overlays are adapted from various sources for legacy 3.5" SPI displays. Since this package utilizes a modified/stable set of configurations, you may want to refer to the **[Official Raspberry Pi Firmware (Specific Version)](https://github.com/raspberrypi/firmware/tree/2ba11f2a07760588546821aed578010252c9ecb3)** which matches the environment used during development.
-This code was made with Google AntiGravity IDE, it is AI Generated.
+This code was made with Google AntiGravity IDE, it is AI Generated. Used AI to recode the drivers because I did not trust the vedor code, AI was effective to research about the hardware.
